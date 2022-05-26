@@ -32,9 +32,10 @@ Partial Class Form1
         'ProgressBar1
         '
         Me.ProgressBar1.ForeColor = System.Drawing.Color.Red
-        Me.ProgressBar1.Location = New System.Drawing.Point(9, 351)
+        Me.ProgressBar1.Location = New System.Drawing.Point(10, 468)
+        Me.ProgressBar1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(595, 22)
+        Me.ProgressBar1.Size = New System.Drawing.Size(680, 29)
         Me.ProgressBar1.TabIndex = 0
         '
         'lblLoading
@@ -42,9 +43,9 @@ Partial Class Form1
         Me.lblLoading.AutoSize = True
         Me.lblLoading.BackColor = System.Drawing.Color.Transparent
         Me.lblLoading.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblLoading.Location = New System.Drawing.Point(32, 316)
+        Me.lblLoading.Location = New System.Drawing.Point(37, 421)
         Me.lblLoading.Name = "lblLoading"
-        Me.lblLoading.Size = New System.Drawing.Size(81, 21)
+        Me.lblLoading.Size = New System.Drawing.Size(100, 28)
         Me.lblLoading.TabIndex = 1
         Me.lblLoading.Text = "Loading..."
         '
@@ -55,23 +56,23 @@ Partial Class Form1
         '
         Me.lblWelcome.AutoSize = True
         Me.lblWelcome.Font = New System.Drawing.Font("Yu Gothic UI", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblWelcome.Location = New System.Drawing.Point(195, 150)
+        Me.lblWelcome.Location = New System.Drawing.Point(223, 200)
         Me.lblWelcome.Name = "lblWelcome"
-        Me.lblWelcome.Size = New System.Drawing.Size(233, 65)
+        Me.lblWelcome.Size = New System.Drawing.Size(288, 81)
         Me.lblWelcome.TabIndex = 2
         Me.lblWelcome.Text = "Welcome"
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.BackgroundImage = Global.Food_Delivery_Management_System.My.Resources.Resources.Welcome
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(616, 385)
+        Me.ClientSize = New System.Drawing.Size(704, 513)
         Me.Controls.Add(Me.lblWelcome)
         Me.Controls.Add(Me.lblLoading)
         Me.Controls.Add(Me.ProgressBar1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
