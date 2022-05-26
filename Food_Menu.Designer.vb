@@ -186,9 +186,10 @@ Partial Class Food_Menu
         'lblFoodName
         '
         Me.lblFoodName.AutoSize = True
+        Me.lblFoodName.Dock = System.Windows.Forms.DockStyle.Left
         Me.lblFoodName.Font = New System.Drawing.Font("Yu Gothic UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblFoodName.ForeColor = System.Drawing.Color.White
-        Me.lblFoodName.Location = New System.Drawing.Point(61, 124)
+        Me.lblFoodName.Location = New System.Drawing.Point(0, 0)
         Me.lblFoodName.Name = "lblFoodName"
         Me.lblFoodName.Size = New System.Drawing.Size(179, 37)
         Me.lblFoodName.TabIndex = 14
@@ -196,8 +197,7 @@ Partial Class Food_Menu
         '
         'Food_Menu
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.DimGray
         Me.ClientSize = New System.Drawing.Size(1566, 881)

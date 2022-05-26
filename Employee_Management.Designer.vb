@@ -46,9 +46,9 @@ Partial Class Employee_Management
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Yu Gothic UI", 22.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(486, 9)
+        Me.Label1.Location = New System.Drawing.Point(555, 12)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(272, 41)
+        Me.Label1.Size = New System.Drawing.Size(333, 50)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Manage Employee"
         '
@@ -57,10 +57,9 @@ Partial Class Employee_Management
         Me.btnSearchEmployee.BackColor = System.Drawing.Color.DarkRed
         Me.btnSearchEmployee.Font = New System.Drawing.Font("Yu Gothic UI", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btnSearchEmployee.ForeColor = System.Drawing.Color.White
-        Me.btnSearchEmployee.Location = New System.Drawing.Point(24, 74)
-        Me.btnSearchEmployee.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnSearchEmployee.Location = New System.Drawing.Point(27, 99)
         Me.btnSearchEmployee.Name = "btnSearchEmployee"
-        Me.btnSearchEmployee.Size = New System.Drawing.Size(106, 35)
+        Me.btnSearchEmployee.Size = New System.Drawing.Size(121, 47)
         Me.btnSearchEmployee.TabIndex = 1
         Me.btnSearchEmployee.Text = "Button1"
         Me.btnSearchEmployee.UseVisualStyleBackColor = False
@@ -68,10 +67,9 @@ Partial Class Employee_Management
         'txtManageEmployee
         '
         Me.txtManageEmployee.Font = New System.Drawing.Font("Yu Gothic UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.txtManageEmployee.Location = New System.Drawing.Point(136, 78)
-        Me.txtManageEmployee.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtManageEmployee.Location = New System.Drawing.Point(155, 104)
         Me.txtManageEmployee.Name = "txtManageEmployee"
-        Me.txtManageEmployee.Size = New System.Drawing.Size(423, 32)
+        Me.txtManageEmployee.Size = New System.Drawing.Size(483, 38)
         Me.txtManageEmployee.TabIndex = 2
         '
         'DataGridView1
@@ -79,12 +77,11 @@ Partial Class Employee_Management
         Me.DataGridView1.AllowUserToOrderColumns = True
         Me.DataGridView1.BackgroundColor = System.Drawing.Color.White
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(24, 114)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.DataGridView1.Location = New System.Drawing.Point(27, 152)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 29
-        Me.DataGridView1.Size = New System.Drawing.Size(534, 472)
+        Me.DataGridView1.Size = New System.Drawing.Size(610, 629)
         Me.DataGridView1.TabIndex = 3
         '
         'btnAddEmployee
@@ -92,10 +89,9 @@ Partial Class Employee_Management
         Me.btnAddEmployee.BackColor = System.Drawing.Color.DarkRed
         Me.btnAddEmployee.Font = New System.Drawing.Font("Yu Gothic UI", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btnAddEmployee.ForeColor = System.Drawing.Color.White
-        Me.btnAddEmployee.Location = New System.Drawing.Point(890, 583)
-        Me.btnAddEmployee.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnAddEmployee.Location = New System.Drawing.Point(1017, 777)
         Me.btnAddEmployee.Name = "btnAddEmployee"
-        Me.btnAddEmployee.Size = New System.Drawing.Size(147, 35)
+        Me.btnAddEmployee.Size = New System.Drawing.Size(168, 47)
         Me.btnAddEmployee.TabIndex = 4
         Me.btnAddEmployee.Text = "Add"
         Me.btnAddEmployee.UseVisualStyleBackColor = False
@@ -105,10 +101,9 @@ Partial Class Employee_Management
         Me.btbdeleteEmployee.BackColor = System.Drawing.Color.DarkRed
         Me.btbdeleteEmployee.Font = New System.Drawing.Font("Yu Gothic UI", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btbdeleteEmployee.ForeColor = System.Drawing.Color.White
-        Me.btbdeleteEmployee.Location = New System.Drawing.Point(203, 601)
-        Me.btbdeleteEmployee.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btbdeleteEmployee.Location = New System.Drawing.Point(232, 801)
         Me.btbdeleteEmployee.Name = "btbdeleteEmployee"
-        Me.btbdeleteEmployee.Size = New System.Drawing.Size(133, 35)
+        Me.btbdeleteEmployee.Size = New System.Drawing.Size(152, 47)
         Me.btbdeleteEmployee.TabIndex = 5
         Me.btbdeleteEmployee.Text = "Delete"
         Me.btbdeleteEmployee.UseVisualStyleBackColor = False
@@ -118,10 +113,9 @@ Partial Class Employee_Management
         Me.btnUpdateEmployee.BackColor = System.Drawing.Color.DarkRed
         Me.btnUpdateEmployee.Font = New System.Drawing.Font("Yu Gothic UI", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btnUpdateEmployee.ForeColor = System.Drawing.Color.White
-        Me.btnUpdateEmployee.Location = New System.Drawing.Point(1094, 583)
-        Me.btnUpdateEmployee.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnUpdateEmployee.Location = New System.Drawing.Point(1250, 777)
         Me.btnUpdateEmployee.Name = "btnUpdateEmployee"
-        Me.btnUpdateEmployee.Size = New System.Drawing.Size(140, 35)
+        Me.btnUpdateEmployee.Size = New System.Drawing.Size(160, 47)
         Me.btnUpdateEmployee.TabIndex = 6
         Me.btnUpdateEmployee.Text = "Update"
         Me.btnUpdateEmployee.UseVisualStyleBackColor = False
@@ -131,37 +125,33 @@ Partial Class Employee_Management
         Me.pnlEmployeeBikeImg.BackColor = System.Drawing.SystemColors.GrayText
         Me.pnlEmployeeBikeImg.BackgroundImage = Global.Food_Delivery_Management_System.My.Resources.Resources.delivery_bike
         Me.pnlEmployeeBikeImg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.pnlEmployeeBikeImg.Location = New System.Drawing.Point(812, 74)
-        Me.pnlEmployeeBikeImg.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.pnlEmployeeBikeImg.Location = New System.Drawing.Point(928, 99)
         Me.pnlEmployeeBikeImg.Name = "pnlEmployeeBikeImg"
-        Me.pnlEmployeeBikeImg.Size = New System.Drawing.Size(328, 266)
+        Me.pnlEmployeeBikeImg.Size = New System.Drawing.Size(375, 355)
         Me.pnlEmployeeBikeImg.TabIndex = 7
         '
         'txtEmployeeAddress
         '
         Me.txtEmployeeAddress.Font = New System.Drawing.Font("Yu Gothic UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.txtEmployeeAddress.Location = New System.Drawing.Point(890, 467)
-        Me.txtEmployeeAddress.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtEmployeeAddress.Location = New System.Drawing.Point(1017, 623)
         Me.txtEmployeeAddress.Name = "txtEmployeeAddress"
-        Me.txtEmployeeAddress.Size = New System.Drawing.Size(344, 32)
+        Me.txtEmployeeAddress.Size = New System.Drawing.Size(393, 38)
         Me.txtEmployeeAddress.TabIndex = 19
         '
         'txtEmployeeNumber
         '
         Me.txtEmployeeNumber.Font = New System.Drawing.Font("Yu Gothic UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.txtEmployeeNumber.Location = New System.Drawing.Point(890, 416)
-        Me.txtEmployeeNumber.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtEmployeeNumber.Location = New System.Drawing.Point(1017, 555)
         Me.txtEmployeeNumber.Name = "txtEmployeeNumber"
-        Me.txtEmployeeNumber.Size = New System.Drawing.Size(344, 32)
+        Me.txtEmployeeNumber.Size = New System.Drawing.Size(393, 38)
         Me.txtEmployeeNumber.TabIndex = 18
         '
         'txtEmployeeName
         '
         Me.txtEmployeeName.Font = New System.Drawing.Font("Yu Gothic UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.txtEmployeeName.Location = New System.Drawing.Point(890, 365)
-        Me.txtEmployeeName.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtEmployeeName.Location = New System.Drawing.Point(1017, 487)
         Me.txtEmployeeName.Name = "txtEmployeeName"
-        Me.txtEmployeeName.Size = New System.Drawing.Size(344, 32)
+        Me.txtEmployeeName.Size = New System.Drawing.Size(393, 38)
         Me.txtEmployeeName.TabIndex = 17
         '
         'lblEmployeeAge
@@ -169,9 +159,9 @@ Partial Class Employee_Management
         Me.lblEmployeeAge.AutoSize = True
         Me.lblEmployeeAge.Font = New System.Drawing.Font("Yu Gothic UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblEmployeeAge.ForeColor = System.Drawing.Color.White
-        Me.lblEmployeeAge.Location = New System.Drawing.Point(696, 517)
+        Me.lblEmployeeAge.Location = New System.Drawing.Point(795, 689)
         Me.lblEmployeeAge.Name = "lblEmployeeAge"
-        Me.lblEmployeeAge.Size = New System.Drawing.Size(62, 30)
+        Me.lblEmployeeAge.Size = New System.Drawing.Size(79, 37)
         Me.lblEmployeeAge.TabIndex = 16
         Me.lblEmployeeAge.Text = "Age :"
         '
@@ -180,9 +170,9 @@ Partial Class Employee_Management
         Me.lblEmployeeNumber.AutoSize = True
         Me.lblEmployeeNumber.Font = New System.Drawing.Font("Yu Gothic UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblEmployeeNumber.ForeColor = System.Drawing.Color.White
-        Me.lblEmployeeNumber.Location = New System.Drawing.Point(694, 415)
+        Me.lblEmployeeNumber.Location = New System.Drawing.Point(793, 553)
         Me.lblEmployeeNumber.Name = "lblEmployeeNumber"
-        Me.lblEmployeeNumber.Size = New System.Drawing.Size(103, 30)
+        Me.lblEmployeeNumber.Size = New System.Drawing.Size(132, 37)
         Me.lblEmployeeNumber.TabIndex = 15
         Me.lblEmployeeNumber.Text = "Number :"
         '
@@ -191,9 +181,9 @@ Partial Class Employee_Management
         Me.lblEmployeeName.AutoSize = True
         Me.lblEmployeeName.Font = New System.Drawing.Font("Yu Gothic UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblEmployeeName.ForeColor = System.Drawing.Color.White
-        Me.lblEmployeeName.Location = New System.Drawing.Point(694, 364)
+        Me.lblEmployeeName.Location = New System.Drawing.Point(793, 485)
         Me.lblEmployeeName.Name = "lblEmployeeName"
-        Me.lblEmployeeName.Size = New System.Drawing.Size(181, 30)
+        Me.lblEmployeeName.Size = New System.Drawing.Size(230, 37)
         Me.lblEmployeeName.TabIndex = 14
         Me.lblEmployeeName.Text = "Employee Name :"
         '
@@ -202,27 +192,26 @@ Partial Class Employee_Management
         Me.lblEmployeeAddress.AutoSize = True
         Me.lblEmployeeAddress.Font = New System.Drawing.Font("Yu Gothic UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblEmployeeAddress.ForeColor = System.Drawing.Color.White
-        Me.lblEmployeeAddress.Location = New System.Drawing.Point(696, 466)
+        Me.lblEmployeeAddress.Location = New System.Drawing.Point(795, 621)
         Me.lblEmployeeAddress.Name = "lblEmployeeAddress"
-        Me.lblEmployeeAddress.Size = New System.Drawing.Size(101, 30)
+        Me.lblEmployeeAddress.Size = New System.Drawing.Size(129, 37)
         Me.lblEmployeeAddress.TabIndex = 20
         Me.lblEmployeeAddress.Text = "Address :"
         '
         'txtEmployeeAge
         '
         Me.txtEmployeeAge.Font = New System.Drawing.Font("Yu Gothic UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.txtEmployeeAge.Location = New System.Drawing.Point(890, 518)
-        Me.txtEmployeeAge.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtEmployeeAge.Location = New System.Drawing.Point(1017, 691)
         Me.txtEmployeeAge.Name = "txtEmployeeAge"
-        Me.txtEmployeeAge.Size = New System.Drawing.Size(344, 32)
+        Me.txtEmployeeAge.Size = New System.Drawing.Size(393, 38)
         Me.txtEmployeeAge.TabIndex = 21
         '
         'Employee_Management
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlDark
-        Me.ClientSize = New System.Drawing.Size(1370, 661)
+        Me.ClientSize = New System.Drawing.Size(1566, 881)
         Me.Controls.Add(Me.txtEmployeeAge)
         Me.Controls.Add(Me.lblEmployeeAddress)
         Me.Controls.Add(Me.txtEmployeeAddress)
@@ -240,6 +229,7 @@ Partial Class Employee_Management
         Me.Controls.Add(Me.btnSearchEmployee)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Employee_Management"
         Me.Text = "Employee_Management"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
